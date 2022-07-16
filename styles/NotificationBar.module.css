@@ -1,0 +1,9 @@
+.notificationWrapper {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.67);
+    height: auto;
+    padding: 10px 5px;
+    font-size: 0.8rem;
+    width: 100%;
+    color: #fff;
+}

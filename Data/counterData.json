@@ -1,0 +1,28 @@
+{
+    "counts": [
+        {
+            "id": "001",
+            "label": "SUCCESSFULL YEARS",
+            "number": "7",
+            "duration": "5"
+        },
+        {
+            "id": "002",
+            "label": "HAPPY FAMILIES",
+            "number": "1015",
+            "duration": "5"
+        },
+        {
+            "id": "003",
+            "label": "Services",
+            "number": "20",
+            "duration": "5"
+        },
+        {
+            "id": "004",
+            "label": "CUSTOMER FEEDBACK",
+            "number": "210",
+            "duration": "5"
+        }
+    ]
+}

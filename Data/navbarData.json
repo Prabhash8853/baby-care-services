@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "title": "services",
+    "path": "/services",
+    "submenu": [
+      {
+        "title": "Mother Care"
+      },
+      {
+        "title": "Child Care",
+        "submenu": [
+          {
+            "title": "Mother Care"
+          },
+          {
+            "title": "Child Care"
+          },
+          {
+            "title": "Senior citizen care"
+          }
+        ]
+      },
+      {
+        "title": "Senior citizen care"
+      }
+    ]
+  },
+  {
+    "title": "About",
+    "path": "/about"
+  },
+  {
+    "title": "Terms Of Use",
+    "path": "/terms-of-use"
+  },
+  {
+    "title": "Terms Of Use",
+    "path": "/terms-of-use"
+  }
+]
