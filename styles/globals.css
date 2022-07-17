@@ -453,6 +453,37 @@ img {
   justify-content: space-between;
 }
 
+.links {
+  position: sticky;
+  top: 160px;
+}
+
+.links ul {
+  padding: 0;
+}
+
+.links ul li {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-weight: 200;
+}
+
+.links {
+  background-color: #fff;
+  width: 300px;
+  text-align: left;
+  max-width: 300px;
+  max-height: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.links ul li:hover {
+  color: #b9077e;
+}
+
 /**
  * Mobile css
  */
