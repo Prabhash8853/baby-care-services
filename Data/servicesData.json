@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Baby Care",
+        "content": "We do take care of the psychological, physical and cognitive needs of a baby. Our Babysitter in Noida is well conversant with keeping...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/baby.jpg",
+        "imageAlt": "Baby Care"
+    },
+    {
+        "title": "Baby Care",
+        "content": "We do take care of the psychological, physical and cognitive needs of a baby. Our Babysitter in Noida is well conversant with keeping...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/kids.jpg",
+        "imageAlt": "Baby Care"
+    },
+    {
+        "title": "After School Parenting",
+        "content": "We do take care of the psychological, physical and cognitive needs of a baby. Our Babysitter in Noida is well conversant with keeping...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/after-school.jpeg",
+        "imageAlt": "Baby Care"
+    }
+]

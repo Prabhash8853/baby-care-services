@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "title": "services",
+    "path": "/services",
+    "submenu": [
+      {
+        "title": "Personal Assistent",
+        "path": "/Personal_Assistent"
+      },
+      {
+        "title": "New Born Baby Care",
+        "path": "/Newborn_care"
+      },
+      {
+        "title": "Before And After School",
+        "path": "/Before_After_School"
+      },
+      {
+        "title": "Senior citizen care",
+        "path": "/Senior_Citizen_Service"
+      },  
+      {
+        "title": "Patient Care",
+        "path": "/patient-care" 
+      },  
+      {
+        "title": "Mother Care",
+        "path": "/mother-care"
+      },
+      {
+        "title": "Home Nursing",
+        "path": "/home-nursing"
+      }
+    ]
+  },
+  {
+    "title": "Careers",
+    "path": "/career"
+  },
+  {
+    "title": "About",
+    "path": "/about-us"
+  },
+  {
+    "title": "Contact Us",
+    "path": "/contact_us"
+  },
+  {
+    "title": "Our Customers",
+    "path": "/our_customers"
+  },
+  {
+    "title": "Terms Of Use",
+    "path": "/terms_of_use"
+  }
+]
