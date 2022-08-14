@@ -31,7 +31,7 @@ a {
 }
 
 main {
-  margin: 90px auto;
+  margin: 90px auto auto auto;
 }
 
 .grid {
@@ -496,5 +496,25 @@ img {
 
   .Home {
     display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .parallax-content {
+    width: 100%;
+    left: 0;
+    transform: skew(0deg);
+  }
+
+  .links {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .count {
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
   }
 }

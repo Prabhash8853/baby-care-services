@@ -15,15 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Personal_Cheif": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Personal_Cheif.js"
+      "static/chunks/pages/index.js"
     ],
-    "/Senior_Citizen_Service": [
+    "/Personal_Assistent": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Senior_Citizen_Service.js"
+      "static/chunks/pages/Personal_Assistent.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

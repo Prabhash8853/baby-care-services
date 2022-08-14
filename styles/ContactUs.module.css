@@ -1,0 +1,28 @@
+.formContainer {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form {
+    margin-bottom: 2rem;
+}
+
+.contactUsForm {
+    margin-top: 2rem;
+}
+
+.error {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .formContainer {
+        width: 100%;
+    }
+
+    .input {
+        width: 90%!important;
+    }
+}

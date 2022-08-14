@@ -65,7 +65,7 @@
   grid-gap: 40px;
 }
 
-.sideContent{
+.sideContent {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -78,11 +78,11 @@
   border-radius: 20px;
 }
 
-.sides1{
+.sides1 {
   padding-left: 3%;
 }
 
-.sides2{
+.sides2 {
   padding-left: 7%;
 }
 
@@ -118,4 +118,34 @@
  * Desktop css
  */
 
-@media screen and (min-width: 769px) {}
+@media screen and (max-width: 600px) {
+
+  .servicesWrapper,
+  .servicesContainer,
+  .leftContainer,
+  .whyChooseContainer {
+    grid-template-columns: auto;
+  }
+
+  .sides1 {
+    padding-left: 0;
+  }
+
+  .sides2 {
+    padding-left: 0;
+  }
+
+  .sides3 {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 601px) {
+
+  .servicesWrapper,
+  .servicesContainer,
+  .leftContainer,
+  .whyChooseContainer {
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+  }
+}
