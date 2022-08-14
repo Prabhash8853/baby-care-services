@@ -57,7 +57,7 @@ export default function ContactUs() {
   };
 
   return (
-    <>
+    <div className={styles.radialBorder}>
       <Headings content="Contact Us" />
       <Box
         component="form"
@@ -163,6 +163,6 @@ export default function ContactUs() {
           Send
         </Button>
       </div>
-    </>
+    </div>
   );
 }
