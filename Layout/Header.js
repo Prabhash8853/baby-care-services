@@ -4,6 +4,7 @@ import Link from "next/link";
 import NotificationBar from "./NotificationBar";
 import Logo from "./Logo";
 import MenuItems from "components/MenuItems";
+import Drawer from "components/Drawer"
 // import Logo from "./Logo";
 
 export const Header = (props) => (
@@ -20,6 +21,7 @@ export const Header = (props) => (
         </a>
       </Link>
       <nav className={`text-right`}>
+        <Drawer clicked={props.drawerToggleClicked}/>
         <ul className="menus">
           {navLinks.map((menu, idx) => {
             // let className = styles.normalLink;
